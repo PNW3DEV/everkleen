@@ -1,0 +1,133 @@
+.preview-img-container img,
+.preview-img-container,
+.preview-bg-img-container img,
+.preview-bg-img-container {
+  width: 100%;
+  margin: 0;
+  height: auto;
+  box-sizing: border-box;
+}
+
+#new_featured {
+  border: 1px solid rgba(15,15,15,0.2);
+  box-shadow: none;
+}
+
+.preview-img-container li,
+.preview-bg-img-container li {
+  cursor: move;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 2px;
+}
+
+#upload_img,
+#upload_section_bg {
+  cursor: pointer;
+}
+
+#sortable_bg li {
+  position: relative;
+}
+
+#sortable li {
+  position: relative;
+}
+
+i.fa.fa-times:hover {
+  color: rgb(255, 255, 255);
+}
+
+i.fa.fa-times {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.subscriber-container i.fa.fa-times:hover {
+  color: rgb(21, 21, 21);
+}
+
+.subscriber-container i.fa.fa-times {
+  position: initial;
+  color: rgba(21, 21, 21, 0.6);
+  width: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.ui-sortable-placeholder {
+  background: rgba(15,15,15,0.2);
+  visibility: visible !important;
+}
+
+.mfp-container .mfp-content {
+  margin: 8%;
+}
+
+.range {
+  width: 90%;
+}
+
+.range-val {
+  position: relative;
+  top: -9px;
+  left: 6px;
+}
+
+#overlay-opacity {
+  margin: 15px 0;
+}
+
+div.bw-btn {
+  float: right;
+  border-radius: 0;
+}
+
+.list-container {
+  padding: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 40px;
+  background-color: #EFEFEF;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #D5D5D5;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.list-container .category-wrap {
+  margin-bottom: 5px;
+}
+
+.list-container .category-wrap:last-child {
+  margin-bottom: 0;
+}
+
+.displaying_options > div {
+  margin-top: 5px;
+}
+
+.displaying_options > div:first-child {
+  margin-top: 12px;
+}
+
+.masonry-size select {
+  width: 100%;
+  margin-top: 7px;
+}
+
+div.rAds {
+  opacity: 0;
+}
+
+.wrap .updated {
+  /*display: none;*/
+}
+

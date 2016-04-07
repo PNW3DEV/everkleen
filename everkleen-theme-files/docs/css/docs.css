@@ -1,0 +1,16 @@
+pre {
+	max-height: 300px;
+}
+
+.page-section {
+	position: static;
+}
+
+.row > div {
+	position: static;
+}
+
+.bg-primary,
+.bg-success {
+	padding: 10px 15px;
+}
